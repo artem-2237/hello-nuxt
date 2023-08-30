@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+@layer components {
+  .btn {
+    @apply bg-red-600 text-white px-3 py-2 rounded-md text-sm
+  }
+  .link {
+    @apply text-blue-600 hover:underline underline-offset-4
+  }
+  .card {
+    @apply shadow-md bg-white rounded-md p-3
+  }
+  .field {
+    @apply h-8 block bg-gray-200 p-2
+  }
+}
